@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMIT_Relationship__c</fullName>
+    <description>CRMIT relationship with the Account</description>
+    <externalId>false</externalId>
+    <label>CRMIT Relationship</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct - Active</fullName>
+                <default>true</default>
+                <label>Direct - Active</label>
+            </value>
+            <value>
+                <fullName>Partner - Salesforce</fullName>
+                <default>false</default>
+                <label>Partner - Salesforce</label>
+            </value>
+            <value>
+                <fullName>Partner - Oracle</fullName>
+                <default>false</default>
+                <label>Partner - Oracle</label>
+            </value>
+            <value>
+                <fullName>Partner - Others</fullName>
+                <default>false</default>
+                <label>Partner - Others</label>
+            </value>
+            <value>
+                <fullName>Direct - Inactive</fullName>
+                <default>false</default>
+                <label>Direct - Inactive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

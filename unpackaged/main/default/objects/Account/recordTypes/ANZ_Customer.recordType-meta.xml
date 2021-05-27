@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ANZ_Customer</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>CRMIT_Compact_Layout</compactLayoutAssignment>
+    <label>ANZ Customer</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>AppExchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERP for Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FieldForcePro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FieldForcePro%28Standard%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce - Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Aggregator_Type__c</picklist>
+        <values>
+            <fullName>BGH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRMIT_Relationship__c</picklist>
+        <values>
+            <fullName>Direct - Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Direct - Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Oracle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner - Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSM_Old__c</picklist>
+        <values>
+            <fullName>Manish Srivastava</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mithun Reddy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sumesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venugopal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Can_CRMIT_Solve_Support_Field_Intel__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Can_CRMIT_Solve_Support_Market_Intel__c</picklist>
+        <values>
+            <fullName>Solve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Can_CRMIT_Solve_Support_Salesforce_POV__c</picklist>
+        <values>
+            <fullName>Solve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Region__c</picklist>
+        <values>
+            <fullName>ANZ</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Direct_Partnered_Field_Intel__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Direct_Partnered_Market_Intel__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Direct_Partnered_Salesforce_POV__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education %26 Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering %26 Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Profit Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel %26 Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Micro_Vertical__c</picklist>
+        <values>
+            <fullName>Aerospace and Defence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Cleaning Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel %26 Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appliance Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Architecture %26 Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aviation %26 Aerospace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpet Servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civic %26 Social Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer %26 Network Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cosmetics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Unions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical %26 Electronic Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gambling %26 Casinos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health%2C Wellness %26 Fitness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Higher Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital %26 Health Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology %26 Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libraries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics %26 Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing %26 Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical or Industrial Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining %26 Metals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nanotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Profit Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit Organization Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online and Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outsourcing%2FOffshoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging %26 Containers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewables %26 Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourism development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation%2FTrucking%2FRailroad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venture Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wealth Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wireless</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referencable_Y_N__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Captive Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FY21 - Target Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farming Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net New Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UpsellOpportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Account_Pipeline__c</columns>
+    <columns>Total_Opportunity_Revenue__c</columns>
+    <columns>Total_Opportunity_Revenue_Current_FY__c</columns>
+    <columns>Referencable_Y_N__c</columns>
+    <columns>Action_Items__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Venkatesan</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>USA - Active Accounts</label>
+</ListView>
